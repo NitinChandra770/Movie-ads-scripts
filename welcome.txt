@@ -1,0 +1,2 @@
+Welcome to touring talkies //give text to be shown before movie starts to play
+Welcome to elite           //if you give it one below another, same way it will be displayed on screen.  

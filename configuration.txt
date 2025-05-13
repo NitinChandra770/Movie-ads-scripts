@@ -1,0 +1,4 @@
+WELCOME_VIDEO_DURATION = 5  //give in seconds
+ADS_INBETWEEN_MOVIES_TIME = 5 //give in minutes
+WELCOME_VIDEO_TEXT_SIZE=36 //give text size
+OPERATOR_PHONE_DISPLAY_TEXT_SIZE=36 //give text size
