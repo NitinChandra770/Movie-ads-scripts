@@ -244,8 +244,7 @@ def process_movie(movie_path, output_dir):
         f"fontcolor=white:fontsize={TEXT_SIZE}:"
         "x=(w - text_w - 20):y=(h - 100):"
         f"enable='gte(t,{countdown_start_time})':"
-        "box=1:boxcolor=gray@0.8:boxborderw=10:"
-        f"shadowx=2:shadowy=2:shadowcolor=black"
+        f"shadowx=3:shadowy=3:shadowcolor=black"
         )
 
         subprocess.run([
@@ -312,8 +311,7 @@ def process_movie(movie_path, output_dir):
                     f"drawtext=fontfile='C\\:/Windows/Fonts/times.ttf':"
                     f"text='{movie_lines[0]}':fontcolor=white:fontsize={OPERATOR_PHONE_DISPLAY_TEXT_SIZE}:"
                     f"x=10:y=10:"
-                    "box=1:boxcolor=gray@0.8:boxborderw=10:"
-                    f"shadowx=2:shadowy=2:shadowcolor=black"
+                    f"shadowx=3:shadowy=3:shadowcolor=black"
                 )
                 drawtext_filters.append(drawtext_left)
 
@@ -323,8 +321,7 @@ def process_movie(movie_path, output_dir):
                     f"drawtext=fontfile='C\\:/Windows/Fonts/times.ttf':"
                     f"text='{movie_lines[1]}':fontcolor=white:fontsize={OPERATOR_PHONE_DISPLAY_TEXT_SIZE}:"
                     f"x=w-text_w-10:y=10:"
-                    "box=1:boxcolor=gray@0.8:boxborderw=10:"
-                    f"shadowx=2:shadowy=2:shadowcolor=black"
+                    f"shadowx=3:shadowy=3:shadowcolor=black"
                 )
                 drawtext_filters.append(drawtext_right)
 

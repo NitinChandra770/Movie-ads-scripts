@@ -1,2 +1,2 @@
-//operator name to be displayed to top left
+Touring Talkies                    //operator name to be displayed to top left
 9900504613                         //operator name to be displayed to right
